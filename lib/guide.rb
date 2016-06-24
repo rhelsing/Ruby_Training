@@ -1,4 +1,3 @@
-require 'restaurant.rb'
 class Guide
 
 	def initialize(path=nil)
@@ -15,7 +14,6 @@ class Guide
 
 	def launch!
 		introduction
-
 		conclusion
 	end	
 	
